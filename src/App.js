@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import './App.css'
+import Navbar from './components/layout/header/Navbar.js'
+import CardContainer from './components/products/Card.js';
+import { api } from "./service/Api.js";
 
 function App() {
+  const [produtos, setProdutos] = useState([])
+  const [produtosEuro, setProdutosEuro] = useState([])
+  useEffect(() => {
+    api.get("/brazilian_provider").then((res) => setProdutos(res.data))
+    api.get("/european_provider").then((res) => setProdutosEuro(res.data))
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {
+        produtos === undefined && produtosEuro === undefined ?
+          <div>Aguarde o carregamento dos produtos</div>
+          :
+          <>
+            <Navbar />
+            <div id='card'>
+              <CardContainer produtos={produtos} />
+              <CardContainer produtos={produtosEuro} />
+            </div>
+
+
+          </>
+      }
     </div>
   );
 }
