@@ -1,33 +1,20 @@
-import React, { useState, useEffect } from "react";
-import './App.css'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
 import Navbar from './components/layout/header/Navbar.js'
-import CardContainer from './components/products/Card.js';
-import { api } from "./service/Api.js";
+import Product from './components/products/product'
+import Cart from './components/cart/cart.js'
 
 function App() {
-  const [produtos, setProdutos] = useState([])
-  const [produtosEuro, setProdutosEuro] = useState([])
-  useEffect(() => {
-    api.get("/brazilian_provider").then((res) => setProdutos(res.data))
-    api.get("/european_provider").then((res) => setProdutosEuro(res.data))
-  })
+
   return (
-    <div className="app">
-      {
-        produtos === undefined && produtosEuro === undefined ?
-          <div>Aguarde o carregamento dos produtos</div>
-          :
-          <>
-            <Navbar />
-            <div id='card'>
-              <CardContainer produtos={produtos} />
-              <CardContainer produtos={produtosEuro} />
-            </div>
-
-
-          </>
-      }
-    </div>
+    <BrowserRouter className="app">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Product />}/>
+        <Routes path="/carrinho" element={<Cart />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
