@@ -28,7 +28,7 @@ Minha espectativa foi de um grande desafio, sei que grande desafios me ajudam a 
 
 # API
 O projeto da API esta em outro repositorio do github que você pode acessar [aqui](https://github.com/henriqueferrazo/api-ecommerce).
-Na API criei um banco de dados que possuia 3 tabelas, são elas **Clientes Produtos e Pedidos**. Na tabela *Pedidos* duas colunas com chaves estrangeiras que eram o id_clientes e id_produtos.
+Na API criei um banco de dados que possuia 3 tabelas, são elas **Clientes Produtos e Pedidos**. Na tabela **Pedidos** duas colunas com chaves estrangeiras que eram o **id_clientes e id_produtos**.
 ALém de utilizei o ORM Sequelize para fazer a conexão com o banco de dados e modelar as tabelas. 
 
 # Conhecimentos Praticados
@@ -43,7 +43,7 @@ ALém de utilizei o ORM Sequelize para fazer a conexão com o banco de dados e m
 ✔ Heroku <br>
 
 # Desafios:
-Um dos desafios foi dar deploy da API no Heroku para poder criar um carrinho online. Apesar de ter feito o deploy, não conseguir criar no react as atividades de CRUD.  
+Um dos desafios foi dar deploy da API no Heroku para poder criar um carrinho online. Apesar de ter feito o deploy, não consegui criar no react as atividades de CRUD para dar post em meu carrinho e posteriormente vizualizar e deletar na rota carrinho.  
  
 # Rodando o projeto:
 
@@ -73,7 +73,7 @@ $ npm start
 
 # Tecnologias utilizadas: 
 <p align="center">
-<a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" height="40" width="40" /></a> <a href="https://insomnia.rest/download"></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a href="https://www.sqlite.org/index.html"><img src="./readme/sqlite-icon.svg" height="40" width="40" /></a> <a href="https://jestjs.io/pt-BR/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" width="40" /></a>
+<a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" height="40" width="40" /></a> <a href="https://insomnia.rest/download"></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a><img href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" src="devicon-postgresql-plain-wordmark colored"></img></a>
 </p>
 
 
