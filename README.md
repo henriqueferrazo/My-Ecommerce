@@ -24,12 +24,23 @@
 # Projeto e Espectativas
 O objetivo do projeto era criar uma loja online onde o usuario pudesse adicionar o produto escolhido ao carrinho e apartir do carrinho ele teria a opção de finalizar a compra ou deletar caso desistisse de comprar.
 Em caso de finalizar a compra ele deveria informar seu endereço de entrega e assim formaria uma tabela chamada pedidos. 
-Minha espectativa foi de um grande desafio, sei que grande desafios me ajudam a me desenvolver por ainda ser inesperiente
+Minha espectativa foi de um grande desafio, sei que grande desafios me ajudam a me desenvolver como profissional. Infelizmente não consegui concluir o projeto ainda, mas foi incrivel ter iniciado.
 
 # API
 O projeto da API esta em outro repositorio do github que você pode acessar [aqui](https://github.com/henriqueferrazo/api-ecommerce).
 Na API criei um banco de dados que possuia 3 tabelas, são elas **Clientes Produtos e Pedidos**. Na tabela **Pedidos** duas colunas com chaves estrangeiras que eram o **id_clientes e id_produtos**.
-ALém de utilizei o ORM Sequelize para fazer a conexão com o banco de dados e modelar as tabelas. 
+ALém de utilizar o ORM Sequelize para fazer a conexão com o banco de dados e modelar as tabelas. 
+Pode acessa a API na **Heroku** com o link **[https://ecommercedevjr-api.herokuapp.com/] + rota** ou clicando [aqui](https://ecommercedevjr-api.herokuapp.com/produtos). Para povoar a API pode colar esse link no postman ou insomnia e passar os parametros corretos.
+
+**Exemplo dos Produtos:**
+{
+	"imagem":"url de imagem"
+	"nome":"test"
+	"descricao":"test",
+	"preco":"test"
+}
+
+***Para fazer o POST será necessario passar a rota registrar após a rota produto***.
 
 # Conhecimentos Praticados
 ✔ NodeJs <br>
@@ -73,10 +84,10 @@ $ npm start
 
 # Tecnologias utilizadas: 
 <p align="center">
-<a href="https://pt-br.reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="40"/></a><a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" height="40" width="40" /></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="40" width="40"/></a><a href="https://dashboard.heroku.com/apps"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" height="40" width="40"/></a>   
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="40"/></a><a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" height="40" width="40" /></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="40" width="40"/></a><a href="https://dashboard.heroku.com/apps"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" height="40" width="40"/></a><a href="https://react-bootstrap.github.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" height="40" width="40" /></a>
 </p>
 
 
 ---
-**Desenvolvido por <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/"> Henrique Ferraz </a>.**
+**De p>senvolvido por <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/"> Henrique Ferraz </a>.**
 
