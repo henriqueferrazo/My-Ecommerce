@@ -9,12 +9,13 @@
       <p align="center">
   <a href="#projeto-e-espectativas"> Projeto e Espectativas </a> |
   <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
-  <a href="#rotas-da-aplicação"> Desafios </a> |
+  <a href="#api"> API </a> |
+  <a href="#desafios"> Desafios </a> |
+  <a href="#rodando-o-projeto"> Rodando o projeto </a> |
   <a href="#tecnologias-utilizadas"> Tecnologias utilizadas </a>      
        <br />
     <br />
     <h1 align="center">
-    <img src="./readme/api.gif" alt="gif-readme">
  </h1>
   </p>
 </p>
@@ -27,11 +28,13 @@ Minha espectativa foi de um grande desafio, sei que grande desafios me ajudam a 
 
 # API
 O projeto da API esta em outro repositorio do github que você pode acessar [aqui](https://github.com/henriqueferrazo/api-ecommerce).
+Na API criei um banco de dados que possuia 3 tabelas, são elas *Clientes Produtos e Pedidos*. Na tabela *Pedidos* duas colunas com chaves estrangeiras que eram o id_clientes e id_produtos.
+ALém de utilizei o ORM Sequelize para fazer a conexão com o banco de dados e modelar as tabelas. 
 
 # Conhecimentos Praticados
 ✔ NodeJs <br>
 ✔ Express <br>
-✔ Postgres <br>
+✔ PostgreSQL <br>
 ✔ Sequelize <br>
 ✔ CRUD com Sequelize <br>
 ✔ Padrão MVC <br>
@@ -40,11 +43,8 @@ O projeto da API esta em outro repositorio do github que você pode acessar [aqu
 ✔ Heroku <br>
 
 # Desafios:
-Um dos desafios foi deploy a API para o Heroku para poder criar um carrinho online. Apesar de ter feito 
-o deploy não conseguir 
+Um dos desafios foi dar deploy da API no Heroku para poder criar um carrinho online. Apesar de ter feito o deploy, não conseguir criar no react as atividades de CRUD.  
  
- 
-
 # Rodando o projeto:
 
 ### Pré-requisitos:
