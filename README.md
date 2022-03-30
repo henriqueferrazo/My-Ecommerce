@@ -34,8 +34,8 @@ Pode acessa a API na **Heroku** com o link **[https://ecommercedevjr-api.herokua
 
 **Exemplo dos Produtos:**
 {
-	"imagem":"url de imagem"
-	"nome":"test"
+	"imagem":"url de imagem",
+	"nome":"test",
 	"descricao":"test",
 	"preco":"test"
 }
