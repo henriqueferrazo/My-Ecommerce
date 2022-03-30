@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
+    <img src="./readme/sacolas.png" alt="Logo" width="150">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Ecommerce teste fullstack Jr</h3>
+ <br />
+  <p align="center">
+     Sumário
+      <p align="center">
+  <a href="#projeto-e-espectativas"> Projeto e Espectativas </a> |
+  <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
+  <a href="#rotas-da-aplicação"> Desafios </a> |
+  <a href="#tecnologias-utilizadas"> Tecnologias utilizadas </a>      
+       <br />
+    <br />
+    <h1 align="center">
+    <img src="./readme/api.gif" alt="gif-readme">
+ </h1>
+  </p>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+# Projeto e Espectativas
+O objetivo do projeto era criar uma loja online onde o usuario pudesse adicionar o produto escolhido ao carrinho e apartir do carrinho ele teria a opção de finalizar a compra ou deletar caso desistisse de comprar.
+Em caso de finalizar a compra ele deveria informar seu endereço de entrega e assim formaria uma tabela chamada pedidos. 
+Minha espectativa foi de um grande desafio, sei que grande desafios me ajudam a me desenvolver por ainda ser inesperiente
 
-### `npm start`
+# API
+O projeto da API esta em outro repositorio do github que você pode acessar [aqui](https://github.com/henriqueferrazo/api-ecommerce).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Conhecimentos Praticados
+✔ NodeJs <br>
+✔ Express <br>
+✔ Postgres <br>
+✔ Sequelize <br>
+✔ CRUD com Sequelize <br>
+✔ Padrão MVC <br>
+✔ React-DOM <br>
+✔ Bootstrap para criação de botões e componentes <br>
+✔ Heroku <br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Desafios:
+Um dos desafios foi deploy a API para o Heroku para poder criar um carrinho online. Apesar de ter feito 
+o deploy não conseguir 
+ 
+ 
 
-### `npm test`
+# Rodando o projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pré-requisitos:
+Antes de começar, você precisará instalar em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/)<br> Além disso, é aconselhável ter um editor como o [VSCode](https://code.visualstudio.com/) para trabalhar com o código!
 
-### `npm run build`
+### Instalando e rodando o projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone este repositório
+$ git clone https://github.com/henriqueferrazo/My-Ecommerce.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acesse a pasta do projeto no terminal
+$ cd My-Ecommerce
 
-### `npm run eject`
+# Instale as dependências do projeto
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Inicie o servidor da aplicação
+$ npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Tecnologias utilizadas: 
+<p align="center">
+<a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" height="40" width="40" /></a> <a href="https://insomnia.rest/download"></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a href="https://www.sqlite.org/index.html"><img src="./readme/sqlite-icon.svg" height="40" width="40" /></a> <a href="https://jestjs.io/pt-BR/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" width="40" /></a>
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
+**Desenvolvido por <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/"> Henrique Ferraz </a>.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

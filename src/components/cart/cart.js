@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Cart.css"
 
-const Cart = ({ produtos }) => {
+const CartContainer = ({ produtosAPI }) => {
 
     return (
         <>
             {
-                produtos.map((produto, index) => {
+                produtosAPI.map((produto, index) => {
                     return (
-                        <Card className ="card" key={index} style={{ width: '18rem' }}>
+                        <Card className ="cart" key={index} style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={produto.imagem} />
                             <Card.Body>
                                 <Card.Title>{produto.nome}</Card.Title>
@@ -31,4 +31,4 @@ const Cart = ({ produtos }) => {
     )
 }
 
-export default Cart;
+export default CartContainer;

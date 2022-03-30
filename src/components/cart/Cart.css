@@ -1,3 +1,18 @@
-#card{
+#cart{
     margin-top: 20px;
 }
+.third {
+    margin-left: 900px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+  .btn:hover, .btn:focus {
+    color: #3498db;
+    outline: 0;
+  }

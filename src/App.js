@@ -1,20 +1,20 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Navbar from './components/layout/header/Navbar.js'
-import Product from './components/products/product'
+import Product from './components/products/product.js'
 import Cart from './components/cart/cart.js'
 
 function App() {
 
   return (
-    <BrowserRouter className="app">
+    <Router className="app">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Product />}/>
-        <Routes path="/carrinho" element={<Cart />} />
+        <Route path="/" element={<Product />} />
+        <Route path="/produtos" element={<Cart />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
