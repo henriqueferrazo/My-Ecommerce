@@ -28,7 +28,7 @@ Minha espectativa foi de um grande desafio, sei que grande desafios me ajudam a 
 
 # API
 O projeto da API esta em outro repositorio do github que você pode acessar [aqui](https://github.com/henriqueferrazo/api-ecommerce).
-Na API criei um banco de dados que possuia 3 tabelas, são elas *Clientes Produtos e Pedidos*. Na tabela *Pedidos* duas colunas com chaves estrangeiras que eram o id_clientes e id_produtos.
+Na API criei um banco de dados que possuia 3 tabelas, são elas **Clientes Produtos e Pedidos**. Na tabela *Pedidos* duas colunas com chaves estrangeiras que eram o id_clientes e id_produtos.
 ALém de utilizei o ORM Sequelize para fazer a conexão com o banco de dados e modelar as tabelas. 
 
 # Conhecimentos Praticados
